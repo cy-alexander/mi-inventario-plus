@@ -28,7 +28,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('MiInventario+'),
+        title: const Text('Mi Inventario+'),
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
       ),
       body: const Center(child: Text('Bienvenido a tu Inventario')),
