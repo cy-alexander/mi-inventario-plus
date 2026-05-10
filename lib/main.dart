@@ -10,7 +10,7 @@ class MiInventarioApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'MiInventario+',
+      title: 'Mi Inventario+',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
@@ -28,10 +28,10 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('MiInventario+'),
+        title: const Text('Mi Inventario+'),
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
       ),
-      body: const Center(child: Text('Bienvenido a tu Inventario+')),
+      body: const Center(child: Text('Bienvenido a tu Inventario')),
     );
   }
 }
