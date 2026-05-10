@@ -1,1 +1,1 @@
-# bodega-plus
+# mi-inventario-plus
